@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD07DDB11758529500FF1748 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD07DDB01758529500FF1748 /* UIKit.framework */; };
+		AD07DDB31758529500FF1748 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD07DDB21758529500FF1748 /* Foundation.framework */; };
+		AD07DDB51758529500FF1748 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD07DDB41758529500FF1748 /* CoreGraphics.framework */; };
+		AD07DDBB1758529500FF1748 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD07DDB91758529500FF1748 /* InfoPlist.strings */; };
+		AD07DDBD1758529500FF1748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DDBC1758529500FF1748 /* main.m */; };
+		AD07DDC11758529500FF1748 /* JBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DDC01758529500FF1748 /* JBAppDelegate.m */; };
+		AD07DDC31758529500FF1748 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AD07DDC21758529500FF1748 /* Default.png */; };
+		AD07DDC51758529500FF1748 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD07DDC41758529500FF1748 /* Default@2x.png */; };
+		AD07DDC71758529500FF1748 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD07DDC61758529500FF1748 /* Default-568h@2x.png */; };
+		AD07DDEF1758531400FF1748 /* JBFlexibleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DDD51758531400FF1748 /* JBFlexibleButton.m */; };
+		AD07DDF01758531400FF1748 /* JBFlexibleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DDD71758531400FF1748 /* JBFlexibleImageView.m */; };
+		AD07DDF11758531400FF1748 /* JBFlexibleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DDD91758531400FF1748 /* JBFlexibleLabel.m */; };
+		AD07DDF21758531400FF1748 /* JBFlexibleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DDDB1758531400FF1748 /* JBFlexibleTableView.m */; };
+		AD07DDF31758531400FF1748 /* JBFlexibleTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DDDD1758531400FF1748 /* JBFlexibleTextField.m */; };
+		AD07DDF41758531400FF1748 /* JBFlexibleTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DDDF1758531400FF1748 /* JBFlexibleTextView.m */; };
+		AD07DDF51758531400FF1748 /* JBFlexibleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DDE11758531400FF1748 /* JBFlexibleView.m */; };
+		AD07DDF71758531400FF1748 /* JBFlexibleMultilineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DDE61758531400FF1748 /* JBFlexibleMultilineLabel.m */; };
+		AD07DDF81758531400FF1748 /* JBTypesetBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DDE81758531400FF1748 /* JBTypesetBoardView.m */; };
+		AD07DDF91758531400FF1748 /* JBTypesetMatrixView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DDEA1758531400FF1748 /* JBTypesetMatrixView.m */; };
+		AD07DDFA1758531400FF1748 /* UIView+Flexible.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DDEC1758531400FF1748 /* UIView+Flexible.m */; };
+		AD07DE0117586EEB00FF1748 /* JBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DE0017586EEA00FF1748 /* JBViewController.m */; };
+		AD07DE07175898A100FF1748 /* imageA.png in Resources */ = {isa = PBXBuildFile; fileRef = AD07DE03175898A100FF1748 /* imageA.png */; };
+		AD07DE08175898A100FF1748 /* imageA@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD07DE04175898A100FF1748 /* imageA@2x.png */; };
+		AD07DE09175898A100FF1748 /* imageB@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD07DE05175898A100FF1748 /* imageB@2x.png */; };
+		AD07DE0A175898A100FF1748 /* imageB.png in Resources */ = {isa = PBXBuildFile; fileRef = AD07DE06175898A100FF1748 /* imageB.png */; };
+		AD07DE0D1758992E00FF1748 /* matrix_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD07DE0B1758992E00FF1748 /* matrix_bg@2x.png */; };
+		AD07DE0E1758992E00FF1748 /* matrix_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AD07DE0C1758992E00FF1748 /* matrix_bg.png */; };
+		AD07DE1117589D2A00FF1748 /* JBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07DE1017589D2800FF1748 /* JBMainViewController.m */; };
+		AD07DE141758A1D700FF1748 /* typeButton_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AD07DE121758A1D700FF1748 /* typeButton_bg.png */; };
+		AD07DE151758A1D700FF1748 /* typeButton_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD07DE131758A1D700FF1748 /* typeButton_bg@2x.png */; };
+		ADD634CC1758DED5002D1470 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD634CA1758DED5002D1470 /* icon.png */; };
+		ADD634CD1758DED5002D1470 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD634CB1758DED5002D1470 /* icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD07DDAD1758529500FF1748 /* Typeset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Typeset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD07DDB01758529500FF1748 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD07DDB21758529500FF1748 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD07DDB41758529500FF1748 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD07DDB81758529500FF1748 /* Typeset-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Typeset-Info.plist"; sourceTree = "<group>"; };
+		AD07DDBA1758529500FF1748 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD07DDBC1758529500FF1748 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD07DDBE1758529500FF1748 /* Typeset-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Typeset-Prefix.pch"; sourceTree = "<group>"; };
+		AD07DDBF1758529500FF1748 /* JBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBAppDelegate.h; sourceTree = "<group>"; };
+		AD07DDC01758529500FF1748 /* JBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBAppDelegate.m; sourceTree = "<group>"; };
+		AD07DDC21758529500FF1748 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AD07DDC41758529500FF1748 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AD07DDC61758529500FF1748 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AD07DDD41758531400FF1748 /* JBFlexibleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFlexibleButton.h; sourceTree = "<group>"; };
+		AD07DDD51758531400FF1748 /* JBFlexibleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFlexibleButton.m; sourceTree = "<group>"; };
+		AD07DDD61758531400FF1748 /* JBFlexibleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFlexibleImageView.h; sourceTree = "<group>"; };
+		AD07DDD71758531400FF1748 /* JBFlexibleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFlexibleImageView.m; sourceTree = "<group>"; };
+		AD07DDD81758531400FF1748 /* JBFlexibleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFlexibleLabel.h; sourceTree = "<group>"; };
+		AD07DDD91758531400FF1748 /* JBFlexibleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFlexibleLabel.m; sourceTree = "<group>"; };
+		AD07DDDA1758531400FF1748 /* JBFlexibleTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFlexibleTableView.h; sourceTree = "<group>"; };
+		AD07DDDB1758531400FF1748 /* JBFlexibleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFlexibleTableView.m; sourceTree = "<group>"; };
+		AD07DDDC1758531400FF1748 /* JBFlexibleTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFlexibleTextField.h; sourceTree = "<group>"; };
+		AD07DDDD1758531400FF1748 /* JBFlexibleTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFlexibleTextField.m; sourceTree = "<group>"; };
+		AD07DDDE1758531400FF1748 /* JBFlexibleTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFlexibleTextView.h; sourceTree = "<group>"; };
+		AD07DDDF1758531400FF1748 /* JBFlexibleTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFlexibleTextView.m; sourceTree = "<group>"; };
+		AD07DDE01758531400FF1748 /* JBFlexibleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFlexibleView.h; sourceTree = "<group>"; };
+		AD07DDE11758531400FF1748 /* JBFlexibleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFlexibleView.m; sourceTree = "<group>"; };
+		AD07DDE21758531400FF1748 /* JBFlexibleViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFlexibleViewDelegate.h; sourceTree = "<group>"; };
+		AD07DDE51758531400FF1748 /* JBFlexibleMultilineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFlexibleMultilineLabel.h; sourceTree = "<group>"; };
+		AD07DDE61758531400FF1748 /* JBFlexibleMultilineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFlexibleMultilineLabel.m; sourceTree = "<group>"; };
+		AD07DDE71758531400FF1748 /* JBTypesetBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTypesetBoardView.h; sourceTree = "<group>"; };
+		AD07DDE81758531400FF1748 /* JBTypesetBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTypesetBoardView.m; sourceTree = "<group>"; };
+		AD07DDE91758531400FF1748 /* JBTypesetMatrixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTypesetMatrixView.h; sourceTree = "<group>"; };
+		AD07DDEA1758531400FF1748 /* JBTypesetMatrixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTypesetMatrixView.m; sourceTree = "<group>"; };
+		AD07DDEB1758531400FF1748 /* UIView+Flexible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Flexible.h"; sourceTree = "<group>"; };
+		AD07DDEC1758531400FF1748 /* UIView+Flexible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Flexible.m"; sourceTree = "<group>"; };
+		AD07DDFE17586E6A00FF1748 /* JBTypeset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTypeset.h; sourceTree = "<group>"; };
+		AD07DDFF17586EE800FF1748 /* JBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBViewController.h; sourceTree = "<group>"; };
+		AD07DE0017586EEA00FF1748 /* JBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBViewController.m; sourceTree = "<group>"; };
+		AD07DE03175898A100FF1748 /* imageA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageA.png; sourceTree = "<group>"; };
+		AD07DE04175898A100FF1748 /* imageA@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageA@2x.png"; sourceTree = "<group>"; };
+		AD07DE05175898A100FF1748 /* imageB@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageB@2x.png"; sourceTree = "<group>"; };
+		AD07DE06175898A100FF1748 /* imageB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageB.png; sourceTree = "<group>"; };
+		AD07DE0B1758992E00FF1748 /* matrix_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "matrix_bg@2x.png"; sourceTree = "<group>"; };
+		AD07DE0C1758992E00FF1748 /* matrix_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matrix_bg.png; sourceTree = "<group>"; };
+		AD07DE0F17589D2600FF1748 /* JBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMainViewController.h; sourceTree = "<group>"; };
+		AD07DE1017589D2800FF1748 /* JBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMainViewController.m; sourceTree = "<group>"; };
+		AD07DE121758A1D700FF1748 /* typeButton_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = typeButton_bg.png; sourceTree = "<group>"; };
+		AD07DE131758A1D700FF1748 /* typeButton_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "typeButton_bg@2x.png"; sourceTree = "<group>"; };
+		ADD634CA1758DED5002D1470 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		ADD634CB1758DED5002D1470 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD07DDAA1758529500FF1748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD07DDB11758529500FF1748 /* UIKit.framework in Frameworks */,
+				AD07DDB31758529500FF1748 /* Foundation.framework in Frameworks */,
+				AD07DDB51758529500FF1748 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD07DDA41758529500FF1748 = {
+			isa = PBXGroup;
+			children = (
+				AD07DDB61758529500FF1748 /* Typeset */,
+				AD07DDAF1758529500FF1748 /* Frameworks */,
+				AD07DDAE1758529500FF1748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD07DDAE1758529500FF1748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD07DDAD1758529500FF1748 /* Typeset.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD07DDAF1758529500FF1748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD07DDB01758529500FF1748 /* UIKit.framework */,
+				AD07DDB21758529500FF1748 /* Foundation.framework */,
+				AD07DDB41758529500FF1748 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD07DDB61758529500FF1748 /* Typeset */ = {
+			isa = PBXGroup;
+			children = (
+				AD07DDCE1758531400FF1748 /* JustBen */,
+				AD07DDBF1758529500FF1748 /* JBAppDelegate.h */,
+				AD07DDC01758529500FF1748 /* JBAppDelegate.m */,
+				AD07DDB71758529500FF1748 /* Supporting Files */,
+			);
+			path = Typeset;
+			sourceTree = "<group>";
+		};
+		AD07DDB71758529500FF1748 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADD634CA1758DED5002D1470 /* icon.png */,
+				ADD634CB1758DED5002D1470 /* icon@2x.png */,
+				AD07DDB81758529500FF1748 /* Typeset-Info.plist */,
+				AD07DDB91758529500FF1748 /* InfoPlist.strings */,
+				AD07DDBC1758529500FF1748 /* main.m */,
+				AD07DDBE1758529500FF1748 /* Typeset-Prefix.pch */,
+				AD07DDC21758529500FF1748 /* Default.png */,
+				AD07DDC41758529500FF1748 /* Default@2x.png */,
+				AD07DDC61758529500FF1748 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD07DDCE1758531400FF1748 /* JustBen */ = {
+			isa = PBXGroup;
+			children = (
+				AD07DE021758988300FF1748 /* Resources */,
+				AD07DDCF1758531400FF1748 /* Typeset */,
+				AD07DDFF17586EE800FF1748 /* JBViewController.h */,
+				AD07DE0017586EEA00FF1748 /* JBViewController.m */,
+				AD07DE0F17589D2600FF1748 /* JBMainViewController.h */,
+				AD07DE1017589D2800FF1748 /* JBMainViewController.m */,
+			);
+			path = JustBen;
+			sourceTree = "<group>";
+		};
+		AD07DDCF1758531400FF1748 /* Typeset */ = {
+			isa = PBXGroup;
+			children = (
+				AD07DDD41758531400FF1748 /* JBFlexibleButton.h */,
+				AD07DDD51758531400FF1748 /* JBFlexibleButton.m */,
+				AD07DDD61758531400FF1748 /* JBFlexibleImageView.h */,
+				AD07DDD71758531400FF1748 /* JBFlexibleImageView.m */,
+				AD07DDD81758531400FF1748 /* JBFlexibleLabel.h */,
+				AD07DDD91758531400FF1748 /* JBFlexibleLabel.m */,
+				AD07DDDA1758531400FF1748 /* JBFlexibleTableView.h */,
+				AD07DDDB1758531400FF1748 /* JBFlexibleTableView.m */,
+				AD07DDDC1758531400FF1748 /* JBFlexibleTextField.h */,
+				AD07DDDD1758531400FF1748 /* JBFlexibleTextField.m */,
+				AD07DDDE1758531400FF1748 /* JBFlexibleTextView.h */,
+				AD07DDDF1758531400FF1748 /* JBFlexibleTextView.m */,
+				AD07DDE01758531400FF1748 /* JBFlexibleView.h */,
+				AD07DDE11758531400FF1748 /* JBFlexibleView.m */,
+				AD07DDE21758531400FF1748 /* JBFlexibleViewDelegate.h */,
+				AD07DDE51758531400FF1748 /* JBFlexibleMultilineLabel.h */,
+				AD07DDE61758531400FF1748 /* JBFlexibleMultilineLabel.m */,
+				AD07DDE71758531400FF1748 /* JBTypesetBoardView.h */,
+				AD07DDE81758531400FF1748 /* JBTypesetBoardView.m */,
+				AD07DDE91758531400FF1748 /* JBTypesetMatrixView.h */,
+				AD07DDEA1758531400FF1748 /* JBTypesetMatrixView.m */,
+				AD07DDEB1758531400FF1748 /* UIView+Flexible.h */,
+				AD07DDEC1758531400FF1748 /* UIView+Flexible.m */,
+				AD07DDFE17586E6A00FF1748 /* JBTypeset.h */,
+			);
+			path = Typeset;
+			sourceTree = "<group>";
+		};
+		AD07DE021758988300FF1748 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD07DE121758A1D700FF1748 /* typeButton_bg.png */,
+				AD07DE131758A1D700FF1748 /* typeButton_bg@2x.png */,
+				AD07DE0B1758992E00FF1748 /* matrix_bg@2x.png */,
+				AD07DE0C1758992E00FF1748 /* matrix_bg.png */,
+				AD07DE03175898A100FF1748 /* imageA.png */,
+				AD07DE04175898A100FF1748 /* imageA@2x.png */,
+				AD07DE05175898A100FF1748 /* imageB@2x.png */,
+				AD07DE06175898A100FF1748 /* imageB.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD07DDAC1758529500FF1748 /* Typeset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD07DDCA1758529500FF1748 /* Build configuration list for PBXNativeTarget "Typeset" */;
+			buildPhases = (
+				AD07DDA91758529500FF1748 /* Sources */,
+				AD07DDAA1758529500FF1748 /* Frameworks */,
+				AD07DDAB1758529500FF1748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Typeset;
+			productName = Typeset;
+			productReference = AD07DDAD1758529500FF1748 /* Typeset.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD07DDA51758529500FF1748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = JustBen;
+			};
+			buildConfigurationList = AD07DDA81758529500FF1748 /* Build configuration list for PBXProject "Typeset" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD07DDA41758529500FF1748;
+			productRefGroup = AD07DDAE1758529500FF1748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD07DDAC1758529500FF1748 /* Typeset */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD07DDAB1758529500FF1748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD07DDBB1758529500FF1748 /* InfoPlist.strings in Resources */,
+				AD07DDC31758529500FF1748 /* Default.png in Resources */,
+				AD07DDC51758529500FF1748 /* Default@2x.png in Resources */,
+				AD07DDC71758529500FF1748 /* Default-568h@2x.png in Resources */,
+				AD07DE07175898A100FF1748 /* imageA.png in Resources */,
+				AD07DE08175898A100FF1748 /* imageA@2x.png in Resources */,
+				AD07DE09175898A100FF1748 /* imageB@2x.png in Resources */,
+				AD07DE0A175898A100FF1748 /* imageB.png in Resources */,
+				AD07DE0D1758992E00FF1748 /* matrix_bg@2x.png in Resources */,
+				AD07DE0E1758992E00FF1748 /* matrix_bg.png in Resources */,
+				AD07DE141758A1D700FF1748 /* typeButton_bg.png in Resources */,
+				AD07DE151758A1D700FF1748 /* typeButton_bg@2x.png in Resources */,
+				ADD634CC1758DED5002D1470 /* icon.png in Resources */,
+				ADD634CD1758DED5002D1470 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD07DDA91758529500FF1748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD07DDBD1758529500FF1748 /* main.m in Sources */,
+				AD07DDC11758529500FF1748 /* JBAppDelegate.m in Sources */,
+				AD07DDEF1758531400FF1748 /* JBFlexibleButton.m in Sources */,
+				AD07DDF01758531400FF1748 /* JBFlexibleImageView.m in Sources */,
+				AD07DDF11758531400FF1748 /* JBFlexibleLabel.m in Sources */,
+				AD07DDF21758531400FF1748 /* JBFlexibleTableView.m in Sources */,
+				AD07DDF31758531400FF1748 /* JBFlexibleTextField.m in Sources */,
+				AD07DDF41758531400FF1748 /* JBFlexibleTextView.m in Sources */,
+				AD07DDF51758531400FF1748 /* JBFlexibleView.m in Sources */,
+				AD07DDF71758531400FF1748 /* JBFlexibleMultilineLabel.m in Sources */,
+				AD07DDF81758531400FF1748 /* JBTypesetBoardView.m in Sources */,
+				AD07DDF91758531400FF1748 /* JBTypesetMatrixView.m in Sources */,
+				AD07DDFA1758531400FF1748 /* UIView+Flexible.m in Sources */,
+				AD07DE0117586EEB00FF1748 /* JBViewController.m in Sources */,
+				AD07DE1117589D2A00FF1748 /* JBMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD07DDB91758529500FF1748 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD07DDBA1758529500FF1748 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD07DDC81758529500FF1748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD07DDC91758529500FF1748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD07DDCB1758529500FF1748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Typeset/Typeset-Prefix.pch";
+				INFOPLIST_FILE = "Typeset/Typeset-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD07DDCC1758529500FF1748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Typeset/Typeset-Prefix.pch";
+				INFOPLIST_FILE = "Typeset/Typeset-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD07DDA81758529500FF1748 /* Build configuration list for PBXProject "Typeset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD07DDC81758529500FF1748 /* Debug */,
+				AD07DDC91758529500FF1748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD07DDCA1758529500FF1748 /* Build configuration list for PBXNativeTarget "Typeset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD07DDCB1758529500FF1748 /* Debug */,
+				AD07DDCC1758529500FF1748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD07DDA51758529500FF1748 /* Project object */;
+}
